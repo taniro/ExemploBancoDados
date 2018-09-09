@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         BancoHelper db = new BancoHelper(this);
 
         Carro corsa = new Carro(2000, "Corsa", "Hatch", "Carro Corsa");
